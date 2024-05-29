@@ -1,0 +1,24 @@
+{
+    "name": "balpom/links-handler",
+    "description": "Simple interface for handling all links from PSR-13 link collection by used defined algorithm.",
+    "type": "library",
+    "homepage": "https://www.balpom.ru",
+    "license": "MIT",
+    "keywords": ["link", "web", "weblink", "href", "psr13", "psr-13", "html", "handling", "handler", "filter", "filtering", "transform", "transforming", "transformer"],
+    "autoload": {
+        "psr-4": {
+            "Balpom\\LinksHandler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail (Balpom)"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "balpom/web-link": "^1.1",
+        "symfony/web-link": "^6.4",
+        "league/uri": ">=7.4"
+    }
+}
